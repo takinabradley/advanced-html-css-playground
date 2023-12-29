@@ -35,6 +35,10 @@
 }
 
 .sliding-text {
+  overflow: hidden;
+}
+
+.sliding-text__text {
   animation-duration: 3s;
   animation-name: slidein;
   background-color: blue;
@@ -44,7 +48,7 @@
   transition: background-color 2s linear;   
 }
 
-.sliding-text--white {
+.sliding-text__text--white {
   background-color: white;
 }
 
