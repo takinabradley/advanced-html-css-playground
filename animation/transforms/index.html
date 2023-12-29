@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div>
+    <h2>Scale and Rotate:</h2>
+    <p>Original</p>
+    <img src="odin.png" alt="top logo" />
+  
+    <p>Rotate by 45 degrees</p>
+    <img class="rotate-by-deg scaleX" src="odin.png" alt="top logo" />
+  
+    <p>Rotate by -1 radian</p>
+    <img class="rotate-by-rad scaleY" src="odin.png" alt="top logo" />
+  
+    <p>Rotate 0.3 turn</p>
+    <img class="rotate-by-turn scaleXY" src="odin.png" alt="top logo" />
+  </div>
+
+  <div>
+    <h2>Skew:</h2>
+    <p>Original</p>
+    <div class="square purple"></div>
+
+    <p>Skew 45 degrees on X-axis</p>
+    <div class="square purple skewX"></div>
+
+    <p>Skew -0.5 radian on Y-axis</p>
+    <div class="square purple skewY"></div>
+
+    <p>Skew 45 degrees and -0.5 radian on X and Y axes respectively</p>
+    <div class="square purple skewXY"></div>
+
+    <p>Skew 45 degrees on X-axis (single value in function)</p>
+    <div class="square purple skew"></div>
+  </div>
+
+  <div>
+    <h2>Translates:</h2>
+    <p>Original</p>
+    <div class="bordered">
+      <img src="odin.png" alt="top logo" />
+    </div>
+
+    <p>Translate by 20px on X-axis</p>
+    <div class="bordered">
+      <img class="translateX" src="odin.png" alt="top logo" />
+    </div>
+
+    <p>Translate by -33% on Y-axis</p>
+    <div class="bordered">
+      <img class="translateY" src="odin.png" alt="top logo" />
+    </div>
+
+    <p>Translate by 20px and -33% on X and Y axes respectively</p>
+    <div class="bordered">
+      <img class="translateXY" src="odin.png" alt="top logo" />
+    </div>
+  </div>
+
+  <div>
+    <h2>Chaining transforms:</h2>
+    <div class="red square"></div>
+    <div class="blue square"></div>
+  </div>
+  
+
+  <div>
+    <h2>Cube:</h2>
+    <div class="cube-container">
+      <div class="cube">
+        <div class="side front"></div>
+        <div class="side back"></div>
+        <div class="side left"></div>
+        <div class="side right"></div>
+        <div class="side top"></div>
+        <div class="side bottom"></div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    Blocks?
+    <div class="blocks-container">
+      <div class="block top">
+        <div class="side front"></div>
+        <div class="side back"></div>
+        <div class="side left"></div>
+        <div class="side right"></div>
+        <div class="side top"></div>
+        <div class="side bottom"></div>
+      </div>
+      <div class="block middle">
+        <div class="side front"></div>
+        <div class="side back"></div>
+        <div class="side left"></div>
+        <div class="side right"></div>
+        <div class="side top"></div>
+        <div class="side bottom"></div>
+      </div>
+      <div class="block bottom">
+        <div class="side front"></div>
+        <div class="side back"></div>
+        <div class="side left"></div>
+        <div class="side right"></div>
+        <div class="side top"></div>
+        <div class="side bottom"></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
